@@ -13,7 +13,7 @@ import {
 
 export const Profile = ({ username, avatar, tag, location, stats }) => {
   return (
-    <Div>
+    <Div className='profile' >
       <div className="description">
         <Avatar src={avatar} alt={tag} />
         <Name>{username}</Name>
